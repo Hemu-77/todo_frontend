@@ -1,0 +1,117 @@
+/* TodoList.css */
+.todo-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #f5f7fa;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    font-family: Arial, sans-serif;
+  }
+  
+  .todo-form input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .todo-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .todo-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+  }
+  
+  .todo-list li {
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    position: relative;
+  }
+
+  .todo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-header p {
+    margin: 0;
+    font-size: 28px;
+    color: black;
+    font-weight: bolder;
+    text-transform: capitalize;
+  }
+  
+  .task-time {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .todo-list h4 {
+    margin: 0 0 8px;
+    font-size: 18px;
+  }
+  
+  .todo-list p {
+    margin: 0 0 12px;
+    color: #555;
+  }
+
+  .todo-form label {
+    font-weight: 500;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    display: block;
+    color: #333;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+    margin: 5px;
+  }
+  
+  .edit-btn {
+    background-color: #28a745; /* Green */
+  }
+  
+  .edit-btn:hover {
+    background-color: #218838;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545; /* Red */
+  }
+  
+  .delete-btn:hover {
+    background-color: #b02a37;
+  }
+  
